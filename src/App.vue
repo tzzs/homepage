@@ -40,30 +40,10 @@
     <v-content>
       <HelloWorld/>
     </v-content>
-
-<!--    <v-bottom-navigation-->
-<!--      :value="activeBtn"-->
-<!--      grow-->
-<!--      color="teal"-->
-<!--      class="bottom-menu"-->
-<!--      width="60%"-->
-<!--    >-->
-<!--      <v-btn>-->
-<!--        <span>Blog</span>-->
-<!--        <v-icon>mdi-post-outline</v-icon>-->
-<!--      </v-btn>-->
-
-<!--      <v-btn>-->
-<!--        <span>Favorites</span>-->
-<!--        <v-icon>mdi-heart</v-icon>-->
-<!--      </v-btn>-->
-
-<!--      <v-btn>-->
-<!--        <span>Nearby</span>-->
-<!--        <v-icon>mdi-map-marker</v-icon>-->
-<!--      </v-btn>-->
-<!--    </v-bottom-navigation>-->
-    <TMenu></TMenu>
+    <v-content>
+      <HelloWorld/>
+    </v-content>
+    <TMenu/>
   </v-app>
 </template>
 
@@ -87,8 +67,5 @@ export default {
 </script>
 
 <style scoped>
-.bottom-menu {
-  margin-bottom: 30px;
-  margin-left: 20%;
-}
+
 </style>
